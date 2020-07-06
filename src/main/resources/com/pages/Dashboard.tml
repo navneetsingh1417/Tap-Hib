@@ -1,0 +1,11 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+<h2>Welcome user</h2>
+
+<t:pagelink page="SeeAllEmployees">See All Employees</t:pagelink>
+<br></br>
+<t:pagelink page="Index">click here</t:pagelink> To Logout
+<br></br>
+<t:pagelink page="AddEmployee">Add an Employee</t:pagelink>
+
+</html>

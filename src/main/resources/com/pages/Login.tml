@@ -1,0 +1,12 @@
+<html t:type="layout" title="Tap22 com.example"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+
+<t:form t:id="login">
+            <h2>Please sign in</h2>
+            <t:textfield t:id="email"  validate="required" placeholder="Email address"/>
+            <t:passwordfield t:id="password"  validate="required" placeholder="Password"/>
+            <t:submit value="Sign in"/>
+</t:form>
+
+<p>${message}</p>
+</html>
